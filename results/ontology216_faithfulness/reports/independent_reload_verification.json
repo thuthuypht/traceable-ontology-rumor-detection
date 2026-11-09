@@ -1,0 +1,10 @@
+{
+  "verified_cases": 216,
+  "verified_interventions": 1296,
+  "max_abs_probability_reload_error": 1.1102230246251565e-16,
+  "max_abs_intervention_reload_error": 1.1102230246251565e-16,
+  "failure_count": 0,
+  "first_failures": [],
+  "verified_model_type": "CatBoost retrained and saved in this package",
+  "historical_reproduction": "Separate audit; original trained checkpoint unavailable"
+}

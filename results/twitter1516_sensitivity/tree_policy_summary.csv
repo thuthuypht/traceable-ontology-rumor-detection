@@ -1,0 +1,3 @@
+dataset,threads,negative_trees,backwards_trees,duplicate_trees,self_edge_trees,strict_nodes_removed,strict_edges_removed
+twitter15,1490,17,881,1305,409,6450,13811
+twitter16,818,10,478,698,234,4513,9222

@@ -1,0 +1,11 @@
+{
+  "same_source_id_between_datasets": 169,
+  "cross_exact_normalized_groups": 171,
+  "within_duplicate_groups": 87,
+  "cross_near_duplicate_pairs_excluding_exact": 1,
+  "within_near_duplicate_pairs_excluding_exact": 59,
+  "duplicate_text_groups_with_disagreeing_labels": 0,
+  "near_pairs_threshold": 0.93,
+  "empty_source": 0,
+  "label_distribution": "{('twitter15', 'false'): 370, ('twitter15', 'non-rumor'): 374, ('twitter15', 'true'): 372, ('twitter15', 'unverified'): 374, ('twitter16', 'false'): 205, ('twitter16', 'non-rumor'): 205, ('twitter16', 'true'): 207, ('twitter16', 'unverified'): 201}"
+}

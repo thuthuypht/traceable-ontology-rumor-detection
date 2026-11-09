@@ -1,0 +1,9 @@
+window,direction,repeats,real_D_macro_f1,placebo_mean,placebo_std,montecarlo_one_sided_p,interpretation,holm_adjusted_p_over_eight_tests
+1440,twitter15_to_twitter16,9,0.7818282732974413,0.782930787046937,0.004528408816525026,0.7,"conditional permutation null, exploratory; 9-repeat early windows low p resolution",1.0
+1440,twitter16_to_twitter15,9,0.7606287351616865,0.7648398412120633,0.005159213841726712,0.9,"conditional permutation null, exploratory; 9-repeat early windows low p resolution",1.0
+360,twitter15_to_twitter16,9,0.7742931655420788,0.7645846828182506,0.005680269571774993,0.1,"conditional permutation null, exploratory; 9-repeat early windows low p resolution",0.7000000000000001
+360,twitter16_to_twitter15,9,0.7522973943954923,0.7545223709478162,0.005737385059303027,0.6,"conditional permutation null, exploratory; 9-repeat early windows low p resolution",1.0
+60,twitter15_to_twitter16,9,0.7345499071769956,0.7317264759130285,0.004975296928914628,0.4,"conditional permutation null, exploratory; 9-repeat early windows low p resolution",1.0
+60,twitter16_to_twitter15,9,0.7186857686290149,0.7210768261109705,0.002703828850456953,0.8,"conditional permutation null, exploratory; 9-repeat early windows low p resolution",1.0
+full,twitter15_to_twitter16,49,0.8035628600492999,0.7906021272744185,0.004327275396762012,0.02,"conditional permutation null, exploratory; 9-repeat early windows low p resolution",0.16
+full,twitter16_to_twitter15,49,0.7778085639708319,0.7758289535179848,0.003793053537226959,0.26,"conditional permutation null, exploratory; 9-repeat early windows low p resolution",1.0

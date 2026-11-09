@@ -1,0 +1,14 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ex: <https://example.org/ontology216/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+ex:CaseShape a sh:NodeShape ; sh:targetClass ex:CaseExplanation ;
+  sh:property [ sh:path ex:caseID ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path ex:hasObservation ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path ex:wasPredictedBy ; sh:minCount 1 ] ;
+  sh:property [ sh:path ex:hasRuleScore ; sh:minCount 6 ; sh:maxCount 6 ] ;
+  sh:property [ sh:path ex:hasIntervention ; sh:minCount 6 ; sh:maxCount 6 ] .
+ex:EvidenceShape a sh:NodeShape ; sh:targetClass ex:MaterializedFeature ;
+  sh:property [ sh:path ex:featureName ; sh:minCount 1 ] ;
+  sh:property [ sh:path ex:value ; sh:minCount 1 ; sh:datatype xsd:double ] ;
+  sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ] .

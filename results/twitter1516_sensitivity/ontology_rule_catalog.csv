@@ -1,0 +1,7 @@
+feature,rule_name,premise,label_blind,is_owl_dl_reasoning
+o_rapid_independent_burst,RapidIndependentBurst,High early activity AND distinct participating users,True,False
+o_deep_persistence,DeepPersistentDiscussion,Deep reply chain AND long observed timespan,True,False
+o_broad_amplification,BroadAmplification,High source degree AND many distinct users,True,False
+o_delayed_revival,DelayedRevival,Late response tail AND low early concentration,True,False
+o_multi_branch_diffusion,MultiBranchDiffusion,Several source branches AND deep cascades with distinct users,True,False
+o_temporal_concentration,TemporalConcentration,Most activity arrives early AND sufficient observations,True,False

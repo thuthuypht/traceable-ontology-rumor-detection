@@ -1,0 +1,6 @@
+{
+  "triple_count": 600,
+  "parse_ok": true,
+  "sample_count": 30,
+  "warning": "Structural provenance only; no human expert review, OWL entailment, or causal proof"
+}

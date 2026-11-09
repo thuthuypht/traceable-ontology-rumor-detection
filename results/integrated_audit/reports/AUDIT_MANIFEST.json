@@ -1,0 +1,22 @@
+{
+  "frozen_result_archives_sha256": {
+    "sensitivity_results.zip": "aa5979e8db3cffd69c9ae5769989457392028b48327370353eb04f6f6a288329",
+    "external_results.zip": "f25abb0af045fd259ec5225444cbf49345dac13516eedf59335c846507b273ce"
+  },
+  "audit_code_sha256": "7452b8d78bf82a32d3b77dbd4e542866c6a60847f257c6db33ae82053b30363e",
+  "test_labels_used_for_model_tuning": false,
+  "new_models_trained": false,
+  "ontology_expert_validated": false,
+  "tables": [
+    "tables/01_ablation.csv",
+    "tables/02_policy_prediction_stability.csv",
+    "tables/03_rules_saturation_redundancy.csv",
+    "tables/04_rule_model_sensitivity_T1516.csv",
+    "tables/05_rule_model_sensitivity_COVID19.csv",
+    "tables/06_provenance_score_mismatches.csv",
+    "tables/07_external_performance.csv",
+    "tables/08_external_paired_bootstrap.csv",
+    "tables/09_domain_shift_by_tree_size.csv",
+    "tables/10_source_only_selection_reference.csv"
+  ]
+}

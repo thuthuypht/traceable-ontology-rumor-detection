@@ -1,0 +1,2 @@
+comparison,delta_macro_f1,ci95_low,ci95_high,test_n,bootstrap_repeats
+D_minus_C_shared_C_threshold,-0.0139319850642781,-0.0397390080975372,0.0109797898273623,400,2000

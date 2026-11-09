@@ -1,0 +1,7 @@
+﻿rule,n,raw_pass,visible_pass,insufficient_without_raw,failed,score_saturated_ge_095,provenance_sample_matches,provenance_not_present
+o_rapid_independent_burst,36,36,28,8,0,25,0,36
+o_deep_persistence,36,36,0,36,0,5,0,36
+o_broad_amplification,36,36,36,0,0,30,0,36
+o_delayed_revival,36,36,36,0,0,0,1,35
+o_multi_branch_diffusion,36,36,28,8,0,10,0,36
+o_temporal_concentration,36,36,36,0,0,0,0,36

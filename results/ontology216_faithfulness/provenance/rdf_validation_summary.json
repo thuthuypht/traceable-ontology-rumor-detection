@@ -1,0 +1,12 @@
+{
+  "case_count": 216,
+  "unique_case_ids": 216,
+  "all_six_rule_interventions": true,
+  "case_uri_count": 216,
+  "per_case_feature_links_present": true,
+  "shacl_shapes_generated": true,
+  "rdflib_available": false,
+  "pyshacl_executed": false,
+  "scope": "structural consistency only; not semantic truth",
+  "rdflib_warning": "rdflib absent; deterministic per-case structural checks only"
+}

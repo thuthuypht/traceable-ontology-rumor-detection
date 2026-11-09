@@ -1,0 +1,7 @@
+{
+  "real_ontology_f1": 0.4604586101813459,
+  "null_mean_f1": 0.4713514025264336,
+  "null_std": 0.011191518100787867,
+  "one_sided_rank_p": 0.9,
+  "repeats": 49
+}

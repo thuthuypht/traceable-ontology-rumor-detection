@@ -1,0 +1,191 @@
+{
+  "summary": [
+    {
+      "model": "A",
+      "decision_threshold": 0.6000000000000003,
+      "threshold_source": "source_only_oof",
+      "macro_f1": 0.51161785975919,
+      "mcc": 0.07415527964349874,
+      "recall_rumor": 0.44047619047619047,
+      "precision_rumor": 0.6727272727272727,
+      "accuracy": 0.5125,
+      "auprc": 0.6546420506286502,
+      "tn": 94,
+      "fp": 54,
+      "fn": 141,
+      "tp": 111
+    },
+    {
+      "model": "B",
+      "decision_threshold": 0.4500000000000002,
+      "threshold_source": "source_only_oof",
+      "macro_f1": 0.4687691042856842,
+      "mcc": -0.05697314681625687,
+      "recall_rumor": 0.6825396825396826,
+      "precision_rumor": 0.6120996441281139,
+      "accuracy": 0.5275,
+      "auprc": 0.6561518657785717,
+      "tn": 39,
+      "fp": 109,
+      "fn": 80,
+      "tp": 172
+    },
+    {
+      "model": "C",
+      "decision_threshold": 0.4750000000000002,
+      "threshold_source": "source_only_oof",
+      "macro_f1": 0.474390595245624,
+      "mcc": -0.04564647746908851,
+      "recall_rumor": 0.6865079365079365,
+      "precision_rumor": 0.6156583629893239,
+      "accuracy": 0.5325,
+      "auprc": 0.6744016270806592,
+      "tn": 40,
+      "fp": 108,
+      "fn": 79,
+      "tp": 173
+    },
+    {
+      "model": "D",
+      "decision_threshold": 0.5250000000000002,
+      "threshold_source": "source_only_oof",
+      "macro_f1": 0.4651320717731152,
+      "mcc": -0.06504439665902353,
+      "recall_rumor": 0.6746031746031746,
+      "precision_rumor": 0.6093189964157706,
+      "accuracy": 0.5225,
+      "auprc": 0.6892583535247312,
+      "tn": 39,
+      "fp": 109,
+      "fn": 82,
+      "tp": 170
+    },
+    {
+      "model": "C_shared",
+      "decision_threshold": 0.4750000000000002,
+      "threshold_source": "source_only_C",
+      "macro_f1": 0.474390595245624,
+      "mcc": -0.04564647746908851,
+      "recall_rumor": 0.6865079365079365,
+      "precision_rumor": 0.6156583629893239,
+      "accuracy": 0.5325,
+      "auprc": 0.6744016270806592,
+      "tn": 40,
+      "fp": 108,
+      "fn": 79,
+      "tp": 173
+    },
+    {
+      "model": "D_shared",
+      "decision_threshold": 0.4750000000000002,
+      "threshold_source": "source_only_C",
+      "macro_f1": 0.4604586101813459,
+      "mcc": -0.07019515600066104,
+      "recall_rumor": 0.6984126984126984,
+      "precision_rumor": 0.6089965397923875,
+      "accuracy": 0.5275,
+      "auprc": 0.6892583535247312,
+      "tn": 35,
+      "fp": 113,
+      "fn": 76,
+      "tp": 176
+    },
+    {
+      "model": "G_source_selected_C",
+      "decision_threshold": 0.4750000000000002,
+      "threshold_source": "source_only_selection",
+      "macro_f1": 0.474390595245624,
+      "mcc": -0.04564647746908851,
+      "recall_rumor": 0.6865079365079365,
+      "precision_rumor": 0.6156583629893239,
+      "accuracy": 0.5325,
+      "auprc": 0.6744016270806592,
+      "tn": 40,
+      "fp": 108,
+      "fn": 79,
+      "tp": 173
+    }
+  ],
+  "delta_D_minus_C": -0.013931985064278118,
+  "ci": [
+    -0.03973900809753727,
+    0.010979789827362326
+  ],
+  "placebo": {
+    "real_ontology_f1": 0.4604586101813459,
+    "null_mean_f1": 0.4713514025264336,
+    "null_std": 0.011191518100787867,
+    "one_sided_rank_p": 0.9,
+    "repeats": 49
+  },
+  "selected_source_model": "C",
+  "target_n": 400,
+  "rdf": {
+    "triple_count": 600,
+    "parse_ok": true,
+    "sample_count": 30,
+    "warning": "Structural provenance only; no human expert review, OWL entailment, or causal proof"
+  },
+  "run_info": {
+    "source_original_n": 2308,
+    "source_training_n": 2006,
+    "target_total_n": 400,
+    "target_after_overlap_n": 400,
+    "target_overlap_removed_n": 0,
+    "pheme_overlap_status": {
+      "performed": true,
+      "reference": "/kaggle/input/datasets/thuygmail/pheme-leakfree-v3/pheme_leakfree_project/data/processed/pheme_clean.csv",
+      "reference_roots": 5802,
+      "target_excluded": 0
+    },
+    "source_repository_sha": "6a33ebd91d4cafeb5a42eabc5727226fec7bb0e5",
+    "source_text_mirror_sha": "fc2d35e67d795feab30d22705ae3395eb97b9445",
+    "covid_repo_sha": "9182537d596f994119ad10bf750f726189e1c38d",
+    "covid_archive_sha256": "51fb8799aa6819990d75667b12d459ba869387f3d8ca5ba156f678832c95333f",
+    "time_delay_unit": "NOT_VERIFIED",
+    "primary_window": "full",
+    "temporal_features": "scale-invariant within-tree relative delay",
+    "feature_lists": {
+      "graph": [
+        "g_log_nodes",
+        "g_log_edges",
+        "g_root_degree",
+        "g_max_depth",
+        "g_mean_depth",
+        "g_leaf_ratio",
+        "g_breadth",
+        "g_depth2_ratio"
+      ],
+      "raw": [
+        "e_delay_median_norm",
+        "e_delay_p90_norm",
+        "e_delay_iqr_norm",
+        "e_frac_first10pct",
+        "e_frac_first25pct",
+        "e_frac_first50pct",
+        "e_parent_lag_norm",
+        "e_root_branch_ratio",
+        "e_temporal_entropy",
+        "e_late_quartile",
+        "e_early_burst"
+      ],
+      "ontology": [
+        "o_deep_persistence",
+        "o_delayed_revival",
+        "o_temporal_concentration",
+        "o_branching_persistence"
+      ]
+    },
+    "model_family": "CatBoost if installed else HistGradientBoosting",
+    "target_labels_for_tuning": false,
+    "cv_groups": "source-only exact and near duplicate",
+    "external_data_previous_status": "preflight only",
+    "design_disclosure": "Harmonized source-retrained protocol, not original PHEME/T15/16 model weights",
+    "seed": 42,
+    "placebos": 49,
+    "bootstrap": 2000,
+    "catboost_version": "1.2.10",
+    "pipeline_sha256": "fa5105c9bf8c5be5b5388e3d3f0aeab3e26fbf59acae56e082d3c3b2563bf08e"
+  },
+  "run_seconds": 183.56
+}

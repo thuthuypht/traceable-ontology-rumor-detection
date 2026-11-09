@@ -1,0 +1,6 @@
+event,OntologyV11_MacroF1_real,OntologyV11_MacroF1_permuted_rules,alpha,mean_absolute_probability_change,note
+charliehebdo,0.7581201494682379,0.7581201494682379,0.15,0.0,"Test-set sensitivity diagnostic ONLY; frozen model, shuffled rule columns, NOT a fully retrained placebo"
+ferguson,0.6167495669938269,0.6167495669938269,0.3,0.0,"Test-set sensitivity diagnostic ONLY; frozen model, shuffled rule columns, NOT a fully retrained placebo"
+germanwings-crash,0.6200757628967837,0.6200757628967837,0.7,0.0,"Test-set sensitivity diagnostic ONLY; frozen model, shuffled rule columns, NOT a fully retrained placebo"
+ottawashooting,0.7392784447620828,0.7392784447620828,0.3,5.340636562323198e-05,"Test-set sensitivity diagnostic ONLY; frozen model, shuffled rule columns, NOT a fully retrained placebo"
+sydneysiege,0.7421664259829432,0.7421664259829432,0.7,0.0,"Test-set sensitivity diagnostic ONLY; frozen model, shuffled rule columns, NOT a fully retrained placebo"

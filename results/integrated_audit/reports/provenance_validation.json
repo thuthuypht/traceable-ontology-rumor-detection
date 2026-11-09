@@ -1,0 +1,16 @@
+{
+  "rdf_validation_mode": "restricted_turtle_snapshot_parser_not_full_rdf_validation",
+  "sensitivity_rdf_triples": 702,
+  "sensitivity_sample_scores": 168,
+  "sensitivity_score_matches_found": 168,
+  "sensitivity_scores_missing": 0,
+  "sensitivity_numeric_mismatches": 0,
+  "covid_rdf_triples": 600,
+  "covid_prediction_nodes": 30,
+  "covid_prediction_nodes_with_evidence": 30,
+  "covid_probability_matches": 30,
+  "covid_sample_probability_missing": 0,
+  "covid_probability_mismatch": 0,
+  "covid_predictions_without_sampled_rdf": 370,
+  "scope": "Serialization, referenced entities, and numeric consistency only: NO expert verification, veracity adjudication, causal evidence, or OWL-DL proof."
+}

@@ -1,0 +1,41 @@
+{
+  "study": "Full Provenance + Case-Specific Model Sensitivity, Twitter15/16",
+  "seed": 42,
+  "cases": 216,
+  "unique_source_threads": 135,
+  "model_replication": "RECONSTRUCTED, reference predictions checked and may differ",
+  "n_models": 16,
+  "input_files_sha256": {
+    "original.csv": "e42b459dc35fcc758f53d8009d0fa3e3c6f66d57551b662c30c911f9fdd2fe51",
+    "reference_predictions.csv": "93e627e04f0916cf59961d7152988b702f9dd09931cf872664bf77221a54a1a6",
+    "strict.csv": "faca98ecf203468cd91ee6cb5aa2e98cd74dc19e0ae4fb2049da8c2cd4795808",
+    "source_frozen_config.json": "7fd9da0ac6331878baeba312b72261cd0ca155241723cec5a8a231a56edc37e1",
+    "rule_level_summary.csv": "b404146b1de098f9e9cb04c0e08df714daa32fcac0d99275472b01e20a77248d",
+    "sources.csv": "81c84d1bdfafad70f11d7c9ff42a33eca32a2db99ed97296fb076342f465e2b9",
+    "cases_216.csv": "890f6cd782fb690ed7c320061152fd3fa6424812044095127d5e7e911cf0466d"
+  },
+  "catboost_version": "1.2.10",
+  "scikit_learn_version": "1.6.1",
+  "python": "3.13.18",
+  "models_train_only_on_source_domain": true,
+  "target_labels_used_for_training": false,
+  "reference_probability_match_tolerance": 0.0001,
+  "intervention": "substitute one ontology score with median in source training; other features unchanged",
+  "not_causal": true,
+  "not_owl_dl": true,
+  "human_validation_completed": false,
+  "raw_tree_edge_triples_embedded": false,
+  "previous_raw_tree_audit_216_pass": true,
+  "rdf_structural_validation": {
+    "case_count": 216,
+    "unique_case_ids": 216,
+    "all_six_rule_interventions": true,
+    "case_uri_count": 216,
+    "per_case_feature_links_present": true,
+    "shacl_shapes_generated": true,
+    "rdflib_available": false,
+    "pyshacl_executed": false,
+    "scope": "structural consistency only; not semantic truth",
+    "rdflib_warning": "rdflib absent; deterministic per-case structural checks only"
+  }
+}

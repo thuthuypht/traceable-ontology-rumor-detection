@@ -1,0 +1,16 @@
+{
+  "total_cases": 216,
+  "overall_status_counts": {
+    "VERIFIED_RAW": 216
+  },
+  "full_raw_trees_verified": 216,
+  "visible_score_verified": 164,
+  "raw_score_failures": 0,
+  "case_specific_model_faithfulness_measured": false,
+  "human_expert_validation_completed": false,
+  "claim_truth_verification_completed": false,
+  "original_git_sha": "6a33ebd91d4cafeb5a42eabc5727226fec7bb0e5",
+  "original_tree_source": "PINNED_GITHUB_ZIP",
+  "score_tolerance": 0.005,
+  "input_csv_sha256": "760f54e8c57dea6b97b66b70a26ad1144e38d8468bd0cfb95d5a30656e0eca28"
+}

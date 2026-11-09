@@ -1,0 +1,5 @@
+rule,source_median,mean_abs_probability_change,changed_decisions_shared_C_threshold,interpretation
+o_deep_persistence,0.09740708387137956,0.0033843092849473373,0,"single-feature perturbation, not causal proof"
+o_delayed_revival,0.006713705832712323,0.006925906661406931,2,"single-feature perturbation, not causal proof"
+o_temporal_concentration,0.9878083431606436,0.004149658490566279,3,"single-feature perturbation, not causal proof"
+o_branching_persistence,0.17786370593331338,0.008884056032438449,7,"single-feature perturbation, not causal proof"

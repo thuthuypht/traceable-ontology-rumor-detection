@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this research software, cite the eventual peer-reviewed article; a submitted/accepted citation is not yet available."
+title: "Traceable Ontology-Guided Propagation Evidence for Rumor Detection: Rule Verification, Model Sensitivity, and Cross-Domain Stress Tests"
+type: software
+authors:
+  - family-names: "Pham"
+    given-names: "Thi Thu Thuy"
+keywords:
+  - rumor detection
+  - ontology
+  - RDF provenance
+  - explanation faithfulness
+  - domain shift

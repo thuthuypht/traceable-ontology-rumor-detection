@@ -1,0 +1,5 @@
+rule,coverage_gt_0_5,saturation_ge_0_95,std,mean,max_abs_corr_with_raw,source_median,mean_abs_probability_change,changed_decisions_shared_C_threshold,interpretation
+o_branching_persistence,0.005,0.0,0.0554467800792578,0.2217618325281106,0.3026390893915477,0.1778637059333133,0.0088840560324384,7,"single-feature perturbation, not causal proof"
+o_deep_persistence,0.005,0.0,0.0600766145383122,0.166242075495051,0.4033839096404039,0.0974070838713795,0.0033843092849473,0,"single-feature perturbation, not causal proof"
+o_delayed_revival,0.0325,0.0,0.1401026743153282,0.063479558009016,0.9296150878132186,0.0067137058327123,0.0069259066614069,2,"single-feature perturbation, not causal proof"
+o_temporal_concentration,0.9575,0.8625,0.1681827406046264,0.93664088982453,0.8969211510944222,0.9878083431606436,0.0041496584905662,3,"single-feature perturbation, not causal proof"

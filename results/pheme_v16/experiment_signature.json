@@ -1,0 +1,16 @@
+{
+  "protocol": "v16_frozen_v11_rule_ensemble_1",
+  "seed": 42,
+  "fast": true,
+  "min_gain": 0.002,
+  "max_replies": 8,
+  "no_minilm": false,
+  "data_sha256": "b31450908a56874633c9591e8ebb1786327d1c9dc47a7ac5abbdab51db5f900d",
+  "graph_sha256": "e7f6895c314a513acb884385ab43dd3ed338acc64c3fb5aabe5d5cf00aeb53a9",
+  "code_sha256": {
+    "pheme_v16_runner.py": "f153bae90fb1e16fb5c22a9510f8b663aa3e4c720c28ff3ea06352ac2d86893c",
+    "pheme_v11_features.py": "bd0ef055dc9b8fc389284b790aa3967d6b2d034a2dd3f277b255480b7effacbd",
+    "pheme_v14_rules.py": "fc36d4d2ca7204a57c6c35875c54c2cd364dc327915ed3b5a1a9dffbdec1327c",
+    "pheme_v14_pipeline.py": "405ed4fd6b51de9e0ea28e85652354661fb832aa8305bf5c505c6c5ffaccbd80"
+  }
+}

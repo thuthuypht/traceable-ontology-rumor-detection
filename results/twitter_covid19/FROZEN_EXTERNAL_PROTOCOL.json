@@ -1,0 +1,61 @@
+{
+  "source_original_n": 2308,
+  "source_training_n": 2006,
+  "target_total_n": 400,
+  "target_after_overlap_n": 400,
+  "target_overlap_removed_n": 0,
+  "pheme_overlap_status": {
+    "performed": true,
+    "reference": "/kaggle/input/datasets/thuygmail/pheme-leakfree-v3/pheme_leakfree_project/data/processed/pheme_clean.csv",
+    "reference_roots": 5802,
+    "target_excluded": 0
+  },
+  "source_repository_sha": "6a33ebd91d4cafeb5a42eabc5727226fec7bb0e5",
+  "source_text_mirror_sha": "fc2d35e67d795feab30d22705ae3395eb97b9445",
+  "covid_repo_sha": "9182537d596f994119ad10bf750f726189e1c38d",
+  "covid_archive_sha256": "51fb8799aa6819990d75667b12d459ba869387f3d8ca5ba156f678832c95333f",
+  "time_delay_unit": "NOT_VERIFIED",
+  "primary_window": "full",
+  "temporal_features": "scale-invariant within-tree relative delay",
+  "feature_lists": {
+    "graph": [
+      "g_log_nodes",
+      "g_log_edges",
+      "g_root_degree",
+      "g_max_depth",
+      "g_mean_depth",
+      "g_leaf_ratio",
+      "g_breadth",
+      "g_depth2_ratio"
+    ],
+    "raw": [
+      "e_delay_median_norm",
+      "e_delay_p90_norm",
+      "e_delay_iqr_norm",
+      "e_frac_first10pct",
+      "e_frac_first25pct",
+      "e_frac_first50pct",
+      "e_parent_lag_norm",
+      "e_root_branch_ratio",
+      "e_temporal_entropy",
+      "e_late_quartile",
+      "e_early_burst"
+    ],
+    "ontology": [
+      "o_deep_persistence",
+      "o_delayed_revival",
+      "o_temporal_concentration",
+      "o_branching_persistence"
+    ]
+  },
+  "model_family": "CatBoost if installed else HistGradientBoosting",
+  "target_labels_for_tuning": false,
+  "cv_groups": "source-only exact and near duplicate",
+  "external_data_previous_status": "preflight only",
+  "design_disclosure": "Harmonized source-retrained protocol, not original PHEME/T15/16 model weights",
+  "seed": 42,
+  "placebos": 49,
+  "bootstrap": 2000,
+  "catboost_version": "1.2.10",
+  "pipeline_sha256": "fa5105c9bf8c5be5b5388e3d3f0aeab3e26fbf59acae56e082d3c3b2563bf08e"
+}

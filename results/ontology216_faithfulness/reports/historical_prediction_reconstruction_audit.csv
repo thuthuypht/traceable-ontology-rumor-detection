@@ -1,0 +1,9 @@
+group,dataset_train,dataset_test,policy,window,n_train,n_test,max_abs_p_diff_D_vs_historical,mean_abs_p_diff_D_vs_historical,max_abs_p_diff_C_vs_historical,exact_reference_match_at_1e-4,reference_warning
+twitter15_to_twitter16__original__360,twitter15,twitter16,original,360,1490,634,1.942890293094024e-16,3.5638443650785353e-17,1.942890293094024e-16,True,MATCHED_REFERENCE
+twitter15_to_twitter16__original__full,twitter15,twitter16,original,full,1490,634,1.942890293094024e-16,4.041303744507483e-17,1.942890293094024e-16,True,MATCHED_REFERENCE
+twitter15_to_twitter16__strict_reachable_tree__360,twitter15,twitter16,strict_reachable_tree,360,1490,634,1.942890293094024e-16,3.4974925602008734e-17,1.942890293094024e-16,True,MATCHED_REFERENCE
+twitter15_to_twitter16__strict_reachable_tree__full,twitter15,twitter16,strict_reachable_tree,full,1490,634,1.942890293094024e-16,3.8675577812195847e-17,1.8041124150158794e-16,True,MATCHED_REFERENCE
+twitter16_to_twitter15__original__360,twitter16,twitter15,original,360,818,1310,1.942890293094024e-16,3.186461908582436e-17,1.6653345369377348e-16,True,MATCHED_REFERENCE
+twitter16_to_twitter15__original__full,twitter16,twitter15,original,full,818,1310,1.8561541192951836e-16,3.9676171593295494e-17,1.942890293094024e-16,True,MATCHED_REFERENCE
+twitter16_to_twitter15__strict_reachable_tree__360,twitter16,twitter15,strict_reachable_tree,360,818,1310,1.942890293094024e-16,3.200895867275678e-17,1.942890293094024e-16,True,MATCHED_REFERENCE
+twitter16_to_twitter15__strict_reachable_tree__full,twitter16,twitter15,strict_reachable_tree,full,818,1310,1.8041124150158794e-16,3.9364980740734766e-17,1.942890293094024e-16,True,MATCHED_REFERENCE
