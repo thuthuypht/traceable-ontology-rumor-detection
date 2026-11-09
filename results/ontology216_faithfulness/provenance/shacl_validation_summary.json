@@ -1,0 +1,16 @@
+{
+  "validation_type": "SHACL Core validation for the supplied ontology216_shapes.ttl only",
+  "conforms": true,
+  "data_triples": 60930,
+  "shape_triples": 35,
+  "data_sha256": "07ef200ca00d1433de2ccab59730bd09ecf85eb85ea675f2d446587dcd3c0407",
+  "shapes_sha256": "082059b1b277f57c65e2670266064645f48b0e15456bcd0d752f87855c953606",
+  "python_version": "3.13.12",
+  "rdflib_version": "7.6.0",
+  "pyshacl_version": "0.40.2",
+  "timestamp_utc": "2026-11-09T14:21:08.536342+00:00",
+  "limitations": [
+    "No claim of OWL-DL entailment, factual correctness or semantic expert validation.",
+    "Only constraints actually present in ontology216_shapes.ttl were evaluated."
+  ]
+}
