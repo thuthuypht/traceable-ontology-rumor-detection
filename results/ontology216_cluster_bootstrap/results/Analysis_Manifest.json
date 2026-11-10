@@ -1,0 +1,32 @@
+{
+  "rows": 1296,
+  "cases": 216,
+  "source_threads": 135,
+  "cases_per_source_thread_histogram": {
+    "1": 102,
+    "2": 19,
+    "3": 1,
+    "4": 8,
+    "5": 2,
+    "9": 1,
+    "10": 1,
+    "12": 1
+  },
+  "threads_per_dataset": {
+    "twitter15": 70,
+    "twitter16": 65
+  },
+  "flips_total": 29,
+  "selected_source_threads_with_any_flip": 15,
+  "bootstrap_repetitions": 10000,
+  "seed": 42,
+  "primary_estimand": "equal weight to each observed source thread after averaging its observed configurations; stratified resampling within Twitter15/Twitter16",
+  "secondary_estimand": "case-weighted mean across the purposively selected 216 case records, CI using source-thread resampling",
+  "ci_type": "two-sided percentile cluster bootstrap (2.5, 97.5)",
+  "bootstrap_notes": "conditional sensitivity analysis on a purposively selected sample: cannot claim population coverage, novel external generalization or causal inference",
+  "input_file": "numeric_216_case_sensitivity_no_tweets.csv",
+  "input_sha256": "3f84e9dc87ac2b7066cadbac1c6505a0e3e3710f8f19aaf960684093d62d1940",
+  "numpy": "2.1.3",
+  "pandas": "2.3.3",
+  "python": "3.13.18"
+}

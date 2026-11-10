@@ -1,0 +1,2 @@
+contrast,estimand,exploratory,n_source_threads,difference_mean_abs_delta_p,ci_low,ci_high
+rapid_independent_burst minus broad_amplification,thread_equal,True,135,0.015683984015412458,0.012796816973511769,0.01861270421744333
